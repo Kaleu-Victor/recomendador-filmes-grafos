@@ -59,5 +59,29 @@ cadastrarFilmeParaUsuario(G, "João", "Carros 3")
 cadastrarFilmeParaUsuario(G, "Carlos", "Velozes e Furiosos 5")
 cadastrarFilmeParaUsuario(G, "Carlos", "Carros 3")
 
-def mostrar_recomendacoes(grafo, nome_usuario):
+def mostrar_recomendacoes(grafo, nome_usuario): # função que exibe os usuários, filmes assistidos e a recomendação 
     filmes_assistidos, recomendados = recomendar_filmes(grafo, nome_usuario)
+
+    print(f"===== Recomendação para o usuário: {nome_usuario} =====")
+    
+    if filmes_assistidos:
+        print("Filmes que já assistiu:")
+        for f in filmes_assistidos:
+            print(f"{f}")
+    else:
+        print("Ainda não assistiu a nenhum filme.")
+
+    if recomendados:
+        print("\nFilmes recomendados para você:")
+        for f in recomendados:
+            print(f"{f}")
+    else:
+        print("\nNenhuma recomendação disponível no momento.")
+
+    print("\n--- Relações no grafo ---")
+    for no in grafo.nodes:
+        tipo = grafo.nodes[no].get("tipo", "desconhecido")
+        conexoes = ", ".join(grafo.neighbors(no))
+        print(f"{no} ({tipo}): {conexoes}")
+
+mostrar_recomendacoes(G, "Ana")
