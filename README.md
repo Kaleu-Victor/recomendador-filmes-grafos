@@ -1,5 +1,5 @@
 # Sistema de Recomendação de Filmes Usando Grafos
-Um projeto de Matemática Aplicada à Computação que utiliza teoria dos grafos para recomendar filmes com base nas escolhas de outros usuários. Além disso, Este projeto implementa um sistema de recomendação baseado em grafos, onde:
+Um projeto de Matemática Aplicada à Computação que utiliza teoria dos grafos para recomendar filmes com base nas escolhas de outros usuários. Além disso, este projeto implementa um sistema de recomendação, onde:
 1. Usuários e filmes são representados como nós.
 2. Arestas conectam usuários aos filmes que assistiram.
 3. O sistema recomenda filmes que amigos (ou outros usuários) assistiram, mas o usuário atual ainda não viu.
@@ -7,3 +7,54 @@ Um projeto de Matemática Aplicada à Computação que utiliza teoria dos grafos
 ## Tecnologias utilizadas:
   - Python 3
   - Biblioteca networkx (para manipulação de grafos)
+
+## Funcionalidades
+- Cadastro de usuários e filmes
+- Registro de filmes assistidos (criação de arestas)
+- Recomendação personalizada (filmes que outros viram e você não)
+- Visualização das relações no grafo
+
+## Como usar
+1. Instalação
+Certifique-se de ter Python instalado e execute:
+```python
+pip install networkx
+```
+2. Execução
+Copie o código do projeto (disponível abaixo) e execute no seu ambiente Python.
+
+
+## Autores:
+<table>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/CCodekey">
+                <img src="https://avatars.githubusercontent.com/u/105808889?v=4" width="100px;" alt="Gabriel T."/><br>
+                <sub>
+                    <b>Gabriel Tertuliano</b>
+                </sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/emidio-007/">
+                <img src="https://avatars.githubusercontent.com/u/194510225?v=4" width="100px;" alt="José E."/><br>
+                <sub>
+                    <b>José Emídio</b>
+                </sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/kaleu-victor">
+                <img src="https://avatars.githubusercontent.com/u/169067294?v=4" width="100px;" alt="Kaléu V."/><br>
+                <sub>
+                    <b>Kaléu Victor</b>
+                </sub>
+            </a>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
