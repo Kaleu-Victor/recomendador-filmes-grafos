@@ -11,7 +11,7 @@ Um projeto de Matemática Aplicada à Computação que utiliza teoria dos grafos
 ## Como executar
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seuuser/recomendacao-filmes-grafos.git
+git clone https://github.com/Kaleu-Victor/recomendador-filmes-grafos
 cd recomendacao-filmes-grafos
 ```
 2. Instale as dependências:
