@@ -4,25 +4,30 @@ Um projeto de Matemática Aplicada à Computação que utiliza teoria dos grafos
 2. Arestas conectam usuários aos filmes que assistiram.
 3. O sistema recomenda filmes que amigos (ou outros usuários) assistiram, mas o usuário atual ainda não viu.
 
-## Tecnologias utilizadas:
+## Tecnologias utilizadas
   - Python 3
   - Biblioteca networkx (para manipulação de grafos)
+
+## Como executar
+1. Clone o repositório:
+```bash
+git clone https://github.com/seuuser/recomendacao-filmes-grafos.git
+cd recomendacao-filmes-grafos
+```
+2. Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+3. Execute o programa principal:
+```python
+python main.py
+```
 
 ## Funcionalidades
 - Cadastro de usuários e filmes
 - Registro de filmes assistidos (criação de arestas)
 - Recomendação personalizada (filmes que outros viram e você não)
 - Visualização das relações no grafo
-
-## Como usar
-1. Instalação
-Certifique-se de ter Python instalado e execute:
-```python
-pip install networkx
-```
-2. Execução
-Copie o código do projeto (disponível abaixo) e execute no seu ambiente Python.
-
 
 ## Autores:
 <table>
