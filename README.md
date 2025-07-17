@@ -48,6 +48,13 @@ python main.py
                 </sub>
             </a>
         </td>
+      <td align="center">
+            <a href="https://github.com/emidio-007/">
+                <img src="https://avatars.githubusercontent.com/u/194510225?v=4" width="100px;" alt="José E."/><br>
+                    <b>José Emídio</b>
+                </sub>
+            </a>
+        </td>
     </tr>
 </table>
 
