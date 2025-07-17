@@ -33,26 +33,18 @@ python main.py
 <table>
     <tr>
         <td align="center">
-            <a href="https://github.com/CCodekey">
-                <img src="https://avatars.githubusercontent.com/u/105808889?v=4" width="100px;" alt="Gabriel T."/><br>
-                <sub>
-                    <b>Gabriel Tertuliano</b>
-                </sub>
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/emidio-007/">
-                <img src="https://avatars.githubusercontent.com/u/194510225?v=4" width="100px;" alt="José E."/><br>
-                <sub>
-                    <b>José Emídio</b>
-                </sub>
-            </a>
-        </td>
-        <td align="center">
             <a href="https://github.com/kaleu-victor">
                 <img src="https://avatars.githubusercontent.com/u/169067294?v=4" width="100px;" alt="Kaléu V."/><br>
                 <sub>
                     <b>Kaléu Victor</b>
+                </sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/CCodekey">
+                <img src="https://avatars.githubusercontent.com/u/105808889?v=4" width="100px;" alt="Gabriel T."/><br>
+                <sub>
+                    <b>Gabriel Tertuliano</b>
                 </sub>
             </a>
         </td>
